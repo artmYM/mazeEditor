@@ -3,6 +3,8 @@
 ## Description
 This script generates a random maze, in a square with the dimensions set by the user, using DFS algorithm, ensuring, that a path from the start to the end is possible. Then, using the A* algorithm, it finds the shortest path from the start to the finish
 
+## Code
+
 ### Class Initialization
 - self.maze: A 2D list representing the maze grid, initialized with walls (1).
 - self.visited: A 2D list to track which cells have been visited during maze generation.

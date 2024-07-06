@@ -18,7 +18,7 @@ This script generates a random maze, in a square with the dimensions set by the 
 
 ### Pathfinding Algorithm
 - Heuristic Function: Uses Manhattan distance to estimate the cost from the current cell to the end cell.
-#### A Algorithm*:
+#### A* Algorithm:
 - Open Set: Priority queue to explore the most promising nodes first.
 - g_cost: Dictionary to store the cost from the start node to each node.
 - f_cost: Dictionary to store the total estimated cost (g_cost + heuristic) from start to the goal.

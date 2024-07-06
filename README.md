@@ -36,3 +36,6 @@ Python:
 
 Required Packages:
 - matplotlib: For plotting the maze and creating interactive widgets.
+
+## Project's future
+I aim to revise this script and make the maze generation algorithm more versitile and robust.  

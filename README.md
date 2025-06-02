@@ -1,4 +1,4 @@
-# Maze Editor
+# Maze Editor 
 
 ## Description
 This script generates a random maze, in a square with the dimensions set by the user, using DFS algorithm, ensuring, that a path from the start to the end is possible. Then, using the A* algorithm, it finds the shortest path from the start to the finish

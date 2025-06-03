@@ -13,7 +13,7 @@ from matplotlib.widgets import Button, TextBox
 
 class Maze:
     def __init__(self, size):
-        # Initialize the maze with walls
+        # First initialize the maze with walls
         self.width = size
         self.height = size
         self.maze = [[1] * size for _ in range(size)]

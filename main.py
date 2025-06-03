@@ -1,7 +1,6 @@
 '''
 maze generation and pathfinding using recursive backtracking and A* algorithm
 --------------------------------------------------------------------------------
-Author: 	Artem Mikheev ~ Student at Queen Mary University of London
 
 '''
 

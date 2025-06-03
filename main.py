@@ -128,7 +128,7 @@ maze.generate_maze()
 maze.create_entrance_and_exit()
 maze.display_maze()
 
-# Add interactive widgets
+# Add interactive widgets.
 ax_generate = plt.axes([0.7, 0.05, 0.1, 0.075])
 btn_generate = Button(ax_generate, 'Generate')
 

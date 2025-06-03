@@ -123,7 +123,7 @@ plt.subplots_adjust(bottom=0.2)
 maze = Maze(20)
 maze.set_axes(ax)
 
-# Initial maze generation and display
+# Initial maze generation and display.
 maze.generate_maze()
 maze.create_entrance_and_exit()
 maze.display_maze()

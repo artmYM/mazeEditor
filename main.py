@@ -39,8 +39,8 @@ class Maze:
                 self.generate_maze(nx, ny)
 
     def create_entrance_and_exit(self):
-        self.maze[0][0] = 0  # Start point
-        self.maze[self.height - 1][self.width - 1] = 0  # End point
+        self.maze[0][0] = 0  # start point
+        self.maze[self.height - 1][self.width - 1] = 0  # end point
 
     def heuristic(self, a, b):
         return abs(a[0] - b[0]) + abs(a[1] - b[1])
